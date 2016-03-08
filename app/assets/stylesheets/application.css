@@ -1,0 +1,276 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+/* Homepage */
+.rowzer {
+	-webkit-filter: grayscale;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+.navbar-text {
+	color: #fff;
+}
+
+.navbar-text a:hover {
+	text-decoration: none;
+	opacity: 0.6;
+	background: none;
+}
+
+.navbar-link a {
+	word-spacing: 20px;
+	padding-right: 30px;
+}
+
+.site-wrapper {
+	margin: 0;
+}
+h1.cover-heading {
+	font-weight: 300;
+	color: #fff;
+	padding-top: 160px;
+	font-size: 56px;
+}
+
+h2.lead {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 200;
+}
+
+p.lead {
+	font-weight: 300;
+	color: #fff;
+}
+
+.btn {
+	margin-top: 50px;
+}
+a.btn {
+	background-color: #20ce99;
+	color: #fff;
+	border-color: #20ce99;
+	border-radius: 0;
+}
+a.btn:hover {
+	background-color: #dad8d2;
+	color: #fff;
+	border-color: #dad8d2;
+}
+
+h2 {
+	font-weight: 300;
+}
+
+.vish {
+	padding-top: 0;
+}
+
+.tinted-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.vish {
+	position: absolute;
+	width: 101%;
+	height: 100%;
+	z-index: -1;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+.home-works {
+	margin-top: 100px;
+	margin-bottom: 0;
+	background-color: #dad8d2;
+}
+
+.home-works .container .row {
+	padding-top: 20px;
+}
+
+.learn_more {
+	background-color: #dad8d2;
+	margin-top: 140px;
+}
+
+.learn_more h2 {
+	padding-top: 140px;
+} 
+
+.header {
+	padding-top: 40px;
+}
+
+.footer {
+	background-color: #2d3131;
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+
+.footer p, a, h5 {
+	color: #fff;
+}
+
+.icon-twitter:hover, .icon-instagram:hover {
+	opacity: 0.6;
+	background: none;
+	text-decoration: none;
+}
+
+.soc_media {
+	word-spacing: 15px;
+}
+
+.legal a, .other a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.legal a:hover, .other a:hover {
+	background: none;
+	opacity: 0.6;
+	text-decoration: none;
+}
+.legal {
+	padding-left: 90px;
+}
+
+/* Invite page */
+
+.role_label {
+	padding-right: 220px;
+}
+
+.header h4 {
+	padding-top: 40px;
+}
+.form-group {
+width: 250px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.form-group input:focus {
+	outline: none;
+	border: none;
+	border-bottom: 3px solid #20ce99;
+	transition: border-bottom 0.5s;
+	transition-timing-function: ease;
+}
+
+
+.form-group input, select {
+	width: 100%;
+	line-height: 2;
+}
+
+.form-group option {
+	width: 120px;
+}
+
+.form-group .btn {
+	background-color: #20ce99;
+	color: #fff;
+	border-color: #20ce99;
+	border-radius: 0;
+}
+
+.form-group .btn:hover {
+	background-color: #dad8d2;
+	border-color: #dad8d2;
+	color: #fff;
+}
+
+/* thanks page */
+.thanks {
+	background-color: #20ce99;
+}
+
+/* users page */
+
+.title {
+	word-spacing: 100px;
+	margin-left: 440px;
+}
+
+.deets {
+	margin-left: 260px;
+	word-spacing: 20px;
+}
+
+ol {
+	margin-left: 110px;
+}
+
+/* FAQ & CONTACT */
+
+.faqs, .contact {
+	background: #20ce99;
+}
+
+.faqs h1, .faqs h3, .faqs p, .contact h1, .contact h4 {
+	color: #fff;
+	font-weight: 200;
+}
+
+.contact a:hover {
+text-decoration: none;
+background: none;
+opacity: 0.6;
+}
+
+.contact p {
+	font-weight: 200;
+}
+
+/* Log in page */
+
+.panel {
+	margin-top: 50px;
+}
+
+.field {
+	text-align: center;
+}
+
+.btn_login {
+	background: #20ce99;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -60px;
+}
+
+.btn_login:hover {
+	background: #dad8d2;
+	}
+
+
+.btn .btn-lg .btn-default .more-priv a {
+	background-color: #F0A830;
+}

@@ -1,0 +1,113 @@
+
+.unsold {
+	margin-top: 80px;
+}
+.unsold h1 {
+	color: #fff;
+	font-weight: 200;
+}
+
+.more, .info {
+	background-color: #20ce99;
+}
+
+.lead h2 {
+	color: #fff;
+}
+
+hr {
+	color: #fff;
+	width: 1000px;
+}
+
+.lead h5 {
+	color: #fff;
+}
+
+.light {
+	background-color: #F0A830;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  border-bottom: 1px solid #ddd;
+}
+
+.active-slide {
+    display: block;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+.value {
+	margin-top: 60px;
+}
+
+.slide-img img {
+	margin-top: 30px;
+}
+
+.value h4{
+	padding-top:20px;
+	color: #fff;
+	font-weight:100;
+}
+
+.arrow-next:hover, .arrow-prev:hover {
+	background: none;
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+.btn_more {
+	background: #F0A830;
+	border-radius: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.btn_more:hover {
+	background: #dad8d2;
+	text-decoration: none;
+}
+

@@ -1,0 +1,35 @@
+<h2 class="header text-center">Beta Users</h2><br>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+
+
+  <tbody>
+    <h5 class="title"><span>Name</span> <span class="email">Email</span> <span>Role</span></h5>
+    <% @beta_users.each_with_index do |beta_user, i| %>
+    <div class="deets">
+      <ol>
+          <%= i += 1 %>
+          <%= beta_user.full_name %> 
+          <%= beta_user.email %>
+          <%= beta_user.role %>
+
+          <%= link_to 'Show', beta_user %>
+          <%= link_to 'Edit', edit_beta_user_path(beta_user) %>
+          <%= link_to 'Destroy', beta_user, method: :delete, data: { confirm: 'Are you sure?' } %>
+      </ol>
+    </div>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<div class="text-center">
+<%= link_to 'New Beta user', invite_path, class: "btn" %>
+</div>

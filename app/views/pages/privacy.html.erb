@@ -1,0 +1,527 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"Lucida Grande";
+	panose-1:2 11 6 0 4 5 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Arial Unicode MS";
+	mso-bidi-font-family:"Times New Roman";
+	border:none;
+	mso-ansi-language:EN-US;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Comment Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Arial Unicode MS";
+	mso-bidi-font-family:"Times New Roman";
+	border:none;
+	mso-ansi-language:EN-US;}
+span.MsoCommentReference
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	text-decoration:none;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	mso-themecolor:followedhyperlink;
+	text-decoration:none;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Lucida Grande";
+	mso-fareast-font-family:"Arial Unicode MS";
+	mso-bidi-font-family:"Times New Roman";
+	border:none;
+	mso-ansi-language:EN-US;}
+p.HeaderFooter, li.HeaderFooter, div.HeaderFooter
+	{mso-style-name:"Header & Footer";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:right 451.0pt;
+	font-size:12.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:"Arial Unicode MS";
+	mso-hansi-font-family:"Arial Unicode MS";
+	mso-bidi-font-family:"Arial Unicode MS";
+	color:black;
+	border:none;}
+p.Body, li.Body, div.Body
+	{mso-style-name:Body;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Arial Unicode MS";
+	mso-hansi-font-family:"Arial Unicode MS";
+	mso-bidi-font-family:"Arial Unicode MS";
+	color:black;
+	border:none;
+	mso-ansi-language:EN-US;
+	text-underline:black;}
+p.Default, li.Default, div.Default
+	{mso-style-name:Default;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:Helvetica;
+	mso-bidi-font-family:Helvetica;
+	color:black;
+	border:none;}
+span.None
+	{mso-style-name:None;
+	mso-style-unhide:no;
+	mso-style-parent:"";}
+span.Hyperlink0
+	{mso-style-name:"Hyperlink\.0";
+	mso-style-unhide:no;
+	mso-style-parent:None;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Times;
+	mso-ascii-font-family:Times;
+	mso-fareast-font-family:Times;
+	mso-hansi-font-family:Times;
+	mso-bidi-font-family:Times;
+	color:#0000E9;
+	text-underline:#0000E9;
+	text-decoration:underline;
+	text-underline:single;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Comment Text";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-ansi-language:EN-US;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"Lucida Grande";
+	mso-ascii-font-family:"Lucida Grande";
+	mso-hansi-font-family:"Lucida Grande";
+	mso-ansi-language:EN-US;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-fareast-font-family:"Arial Unicode MS";
+	border:none;}
+.MsoPapDefault
+	{mso-style-type:export-only;}
+ /* Page Definitions */
+@page
+	{mso-footnote-separator:url(":Word Work File D_187684535_files:header.htm") fs;
+	mso-footnote-continuation-separator:url(":Word Work File D_187684535_files:header.htm") fcs;
+	mso-endnote-separator:url(":Word Work File D_187684535_files:header.htm") es;
+	mso-endnote-continuation-separator:url(":Word Work File D_187684535_files:header.htm") ecs;}
+@page WordSection1
+	{size:595.0pt 842.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-header:url(":Word Work File D_187684535_files:header.htm") h1;
+	mso-footer:url(":Word Work File D_187684535_files:header.htm") f1;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	border:none;}
+</style>
+<![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-GB link="#000000" vlink=fuchsia style='tab-interval:
+36.0pt'>
+
+<div class=WordSection1>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Last Updated: February 2nd, 2016</span><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:Times;
+mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Welcome to the web site and online services (the
+&quot;Website&quot;) operated by Cubey Ltd. (&quot;Cubey&quot;). Cubey values
+the privacy of our members and others who visit and use the Website
+(individually, &quot;You&quot; or collectively, &quot;Users&quot;). We take
+your privacy seriously and make it a priority to protect personally
+identifiable information that we obtain from and about individuals both online
+and off-line.</span><span lang=EN-US style='font-size:12.0pt;font-family:Times;
+mso-fareast-font-family:Times;mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>This Privacy Policy describes what information we gather
+from you, how we use that information, and what we do to protect it. By using
+the Website (whether or not you are a registered member), you expressly consent
+to the information handling practices described in this policy. If you do not
+want information about you to be used in the manner set forth in this Privacy
+Policy, please do not use the Website.</span><span lang=EN-US style='font-size:
+12.0pt;font-family:Times;mso-fareast-font-family:Times;mso-bidi-font-family:
+Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>This Privacy Policy is incorporated into and is subject to
+the Cubey </span><u style='text-underline:#0000E9'><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS";
+color:blue'><a href="/terms">Terms of Service</a></span></u><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>. Your use of the Website and any personal information you
+provide on the Website are subject to the terms of this Privacy Policy and <span
+class=SpellE>Cubey's</span> </span><a href="/terms">Terms of
+Service</a><span lang=EN-US style='font-size:12.0pt;font-family:
+Times;mso-hansi-font-family:"Arial Unicode MS"'>. Any capitalized terms used
+but not defined herein shall have the meaning set forth in the </span><u
+style='text-underline:#0000E9'><span lang=EN-US style='font-size:12.0pt;
+font-family:Times;mso-hansi-font-family:"Arial Unicode MS";color:blue'><a
+href="/terms">Terms of Service</a></span></u><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS"'>.
+This Policy does not apply to the practices of third parties that Cubey does
+not own or control, or individuals that we do not employ or manage.</span><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:
+Times;mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:14.9pt;mso-pagination:none'><b><span
+lang=EN-US style='font-size:18.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>The Information Cubey Collects</span></b><b><span
+lang=EN-US style='font-size:18.0pt;font-family:Times;mso-fareast-font-family:
+Times;mso-bidi-font-family:Times'><o:p></o:p></span></b></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><b><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>User-provided Information:</span></b><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS"'>
+When you register for, browse and use the Website, you may provide to Cubey
+what is generally called &quot;personally identifiable information&quot; (such
+as your full name, email address, location address, and/or telephone number).
+You may also be able to add a picture of yourself. If you decide to register
+through or otherwise grant access to a third party social networking or integrated
+service that we may make available (&quot;Integrated Service&quot;), such as
+Facebook Connect or Google, Cubey may also collect any such &quot;personally
+identifiable information&quot; that you have provided to the Integrated Service
+from the account you have with the Integrated Service. You may revoke <span
+class=SpellE>Cubey's</span> access to your <span class=GramE>account</span> on
+the Integrated Service at any time by updating the appropriate settings in the
+account preferences of the respective Integrated Service. You should check your
+privacy settings on each Integrated Service to understand and change the
+information sent to us through each Integrated Service. Please review each
+Integrated Service</span><span lang=EN-US style='font-size:12.0pt;font-family:
+Times;mso-ascii-font-family:"Times New Roman"'>’</span><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS"'>s
+terms of use and privacy policies carefully before using their services and
+connecting to our Website. If you would like to create a Cubey online store, we
+will ask for your store name, your store address, your PayPal email address
+and/or bank account details, and your store address. We will not have access to
+your PayPal or bank account. From time to time, Cubey may also ask you
+optionally to provide other information. If you choose to provide such
+information, during registration or otherwise, you are giving Cubey the
+permission to use and store it consistent with this policy. Therefore, please
+understand that when you sign in with Cubey, you are not anonymous to us.</span><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:
+Times;mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><b><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Automatically Collected Information:</span></b><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'> When you use the Website, we may automatically record
+certain information from your browser by using different types of technology,
+including standard log files. This automatically collected information may
+include your Internet Protocol (IP) address, browser type, location, <span
+class=GramE>internet</span> service provider (ISP), referring or exit pages,
+click stream data, operating system and the dates and times that you visit the
+Website.</span><span lang=EN-US style='font-size:12.0pt;font-family:Times;
+mso-fareast-font-family:Times;mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><b><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Location Information:</span></b><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS"'>
+We automatically collect and store information about your location when you use
+Cubey. The Personal Information you provide is used for such purposes as
+allowing you to set up an account and profile that can be used to interact with
+other users, customizing the content you see on Cubey, and communicating with
+you about specials and new features.</span><span lang=EN-US style='font-size:
+12.0pt;font-family:Times;mso-fareast-font-family:Times;mso-bidi-font-family:
+Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:14.9pt;mso-pagination:none'><b><span
+lang=EN-US style='font-size:18.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>The Way Cubey Uses and Discloses Information</span></b><b><span
+lang=EN-US style='font-size:18.0pt;font-family:Times;mso-fareast-font-family:
+Times;mso-bidi-font-family:Times'><o:p></o:p></span></b></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>When you post a message, your Cubey username is visible to
+other users. If you post personal information online that is accessible to the
+public, you may receive unsolicited messages from other parties in return.
+Cubey may be required to disclose personally identifiable information under
+special circumstances, such as to comply with the law or when your actions
+violate the Cubey </span><a href="/terms">Terms of Service</a><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>. Cubey may disclose personally identifiable information as
+our sole discretion believes necessary or appropriate in connection with an
+investigation of fraud, intellectual property infringement, piracy, or other
+unlawful activity. In such events, Cubey may disclose name, street address,
+city, state, post</span><span lang=EN-US style='font-size:12.0pt;font-family:
+Times;mso-hansi-font-family:"Arial Unicode MS"'>-</span><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS"'>code,
+country, phone number, email address and company name. Cubey may share </span><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>aggregate</span><span lang=EN-US style='font-size:12.0pt;
+font-family:Times;mso-hansi-font-family:"Arial Unicode MS"'> demographic
+information with business partners.</span><span lang=EN-US style='font-size:
+12.0pt;font-family:Times;mso-fareast-font-family:Times;mso-bidi-font-family:
+Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Cubey may employ other companies and people to perform
+tasks on our behalf and needs to share your information with them to provide
+products and services to you. Examples include but are not limited to
+fulfilling orders, handling billing disputes and collections, analyzing data,
+providing marketing assistance and providing customer service.</span><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:
+Times;mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Cubey will not rent, sell or share personal information
+about you with nonaffiliated parties except as specified in this Privacy Policy
+to provide products or services you have requested or when Cubey has your
+permission. It may be necessary to share information in order to investigate,
+prevent, or take action regarding illegal activities, suspected fraud,
+situations involving potential threats to the physical safety of any person,
+violations of the Cubey </span><span lang=EN-US><a href="/terms"><span
+class=Hyperlink0><span style='font-size:12.0pt'>Terms of Use</span></span></a></span><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>, as specified in this Privacy Policy or as otherwise
+required by law. In some cases, Cubey may choose to buy or sell assets. In
+these types of transactions, customer information is typically one of the
+business assets that <span class=GramE>is</span> transferred. Cubey will
+transfer information about you if we are acquired by or merged with another
+company. In this event, we will notify you by email or by putting a prominent
+notice on the Cubey website before information about you is transferred and
+becomes subject to a different privacy policy.</span><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:Times;
+mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>As part of the buying and selling process, you may obtain
+another Cubey user</span><span lang=EN-US style='font-size:12.0pt;font-family:
+Times;mso-ascii-font-family:"Times New Roman"'>’</span><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS"'>s
+email address, shipping address and/or other information. This information
+should only be used for Cubey-related communications or for transactions. Cubey
+has not granted you a license to use the information for unsolicited commercial
+messages. Without limiting the foregoing, without express consent from the
+user, you are not licensed to add any Cubey user to your email or physical mail
+list.</span><span lang=EN-US style='font-size:12.0pt;font-family:Times;
+mso-fareast-font-family:Times;mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Without limiting the above, in an effort to respect your
+privacy and Cubey’s ability to keep the community free from bad actors, 
+we will not otherwise disclose your personal information
+to law enforcement, other government officials, or other third parties without
+a subpoena, court order, legal process, or substantially similar legal
+procedure, except when we believe in good faith that the disclosure of
+information is necessary to protect <span class=SpellE>Cubey<span
+style='mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:Times'>’</span>s</span>
+rights, prevent imminent physical harm or financial loss, or to report
+suspected illegal activity.</span><span lang=EN-US style='font-size:12.0pt;
+font-family:Times;mso-fareast-font-family:Times;mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:14.9pt;mso-pagination:none'><b><span
+lang=EN-US style='font-size:18.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>How Do I Delete My Account?</span></b><b><span lang=EN-US
+style='font-size:18.0pt;font-family:Times;mso-fareast-font-family:Times;
+mso-bidi-font-family:Times'><o:p></o:p></span></b></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Should you ever decide to delete your Cubey account, you
+may do so by contacting our team by email at </span><span lang=EN-US><a
+href="mailto:info@cubey.co"><span class=Hyperlink0><span style='font-size:
+12.0pt'>info@cubey.co</span></span></a></span><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS"'>.
+If you terminate your account, your profile, including your comments, posts,
+history and storefront, and any promotional offers you received, will be
+removed from the site and deleted from <span class=SpellE>Cubey's</span>
+servers. Due to the way Cubey is maintained, such deletion may not be
+immediate, and residual copies of your profile information or posts may remain
+on backup media for up to <span class=GramE>ninety (90) days</span>.</span><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:
+Times;mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:14.9pt;mso-pagination:none'><b><span
+lang=EN-US style='font-size:18.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Changes and Updates to this Privacy Policy</span></b><b><span
+lang=EN-US style='font-size:18.0pt;font-family:Times;mso-fareast-font-family:
+Times;mso-bidi-font-family:Times'><o:p></o:p></span></b></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>We reserve the right to change the privacy policy at our
+sole discretion. <span class=GramE>Cubey users will be informed of any such
+change by us posting a new privacy policy on the Website</span> and the
+effective date of any change of privacy policy will be clearly marked. We will
+not use any personally identifiable information of yours in ways that are
+materially different from the ones described in this Privacy Policy without
+also providing notification of such practices and obtaining consent to any such
+different uses. If we make material changes to this policy, we will notify you
+here, by email, or by means of a notice on our Website.</span><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:Times;
+mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='margin-bottom:14.9pt;mso-pagination:none'><b><span
+lang=EN-US style='font-size:18.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Contact</span></b><b><span lang=EN-US style='font-size:
+18.0pt;font-family:Times;mso-fareast-font-family:Times;mso-bidi-font-family:
+Times'><o:p></o:p></span></b></p>
+
+<p class=Body style='margin-bottom:12.0pt;mso-pagination:none'><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>Please submit any questions, concerns or comments you have
+about this privacy policy or any requests concerning your personal data by
+email to </span><span lang=EN-US><a href="mailto:info@cubey.co"><span
+class=Hyperlink0><span style='font-size:12.0pt'>info@cubey.co</span></span></a></span><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'> or write to us at:</span><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:Times;
+mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='mso-pagination:none'><span lang=EN-US style='font-size:
+12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS"'>Cubey Ltd</span><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:
+Times;mso-bidi-font-family:Times'><br>
+</span><span lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>10/4,</span><span lang=EN-US style='font-size:12.0pt;
+font-family:Times;mso-fareast-font-family:Times;mso-bidi-font-family:Times'><br>
+</span><span lang=DE style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS";mso-ansi-language:DE'>Cherry Garden Avenue,</span><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:
+Times;mso-bidi-font-family:Times'><br>
+</span><span class=SpellE><span lang=EN-US style='font-size:12.0pt;font-family:
+Times;mso-hansi-font-family:"Arial Unicode MS"'>Cheriton</span></span><span
+lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>,</span><span lang=EN-US style='font-size:12.0pt;
+font-family:Times;mso-fareast-font-family:Times;mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='mso-pagination:none'><span class=SpellE><span lang=DA
+style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS";
+mso-ansi-language:DA'>Folkestone</span></span><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-fareast-font-family:Times;
+mso-bidi-font-family:Times'><o:p></o:p></span></p>
+
+<p class=Body style='mso-pagination:none'><span class=GramE><span lang=EN-US
+style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:"Arial Unicode MS"'>CT19
+5LB</span><span lang=EN-US style='font-size:12.0pt;font-family:Times;
+mso-fareast-font-family:Times;mso-bidi-font-family:Times'><br>
+</span><span lang=EN-US style='font-size:12.0pt;font-family:Times;mso-hansi-font-family:
+"Arial Unicode MS"'>United Kingdom.</span></span></p>
+
+</div>
+
+</body>
+
+</html>
