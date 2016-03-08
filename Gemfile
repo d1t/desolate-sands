@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rails_12factor'
 ruby '2.2.2'
 gem 'puma'
 gem 'jquery-turbolinks'
