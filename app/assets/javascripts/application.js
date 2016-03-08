@@ -19,6 +19,7 @@
 
 var main = function() {
 $('.lazy').hide();
+$('.btn_more').hide();
 
 
 $('.arrow-next').click(function() {
@@ -26,6 +27,7 @@ $('.arrow-next').click(function() {
     var currentSlide = $('.active-slide');
     var nextSlide = currentSlide.next();
     var lazyimg = $('.lazy');
+    var btn = $('.btn_more');
 
     var currentDot = $('.active-dot');
     var nextDot = currentDot.next();
@@ -42,6 +44,7 @@ $('.arrow-next').click(function() {
     nextDot.addClass('active-dot');
 
     lazyimg.hide().fadeIn(700).removeClass('lazy');
+    btn.hide().fadeIn(700);
   });
 
  $('.arrow-prev').click(function() {
