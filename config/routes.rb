@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  devise_for :admins, :skip => [:registrations]
+  devise_for :admins
   
   resources :beta_users, :except => [:index, :new]
    
