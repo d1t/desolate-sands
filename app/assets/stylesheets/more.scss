@@ -1,4 +1,35 @@
 
+
+@media (max-width: 768px) {
+  .join {
+  margin-top: 150px;
+  }
+
+  .btn_more {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+    width: 100%;
+    margin-left: 180px;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+   .join {
+  margin-top: 150px;
+  }
+
+  .btn_more {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+    width: 100%;
+    margin-left: 180px;
+  }
+}
+
 .unsold {
 	margin-top: 80px;
 }
@@ -111,3 +142,21 @@ hr {
 	text-decoration: none;
 }
 
+.join {
+	position: absolute;
+}
+
+.btn_more a {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
+	font-size: 15px;
+}
+
+ .join {
+  margin-top: 150px;
+  }
+
+  .btn_more {
+    margin-left: 250px;
+  }

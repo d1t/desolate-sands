@@ -15,6 +15,44 @@
  */
 
 
+
+
+    @media (max-width: 768px) {
+    	.rowzer .btn_learn {
+    		margin-bottom: 100px;
+    	}
+    	.site-wrapper h1 {
+    		margin-top: -100px;
+    	}
+    	.rowzer {
+    margin-bottom: -100px;
+    	}
+    }
+
+    @media (max-width: 992px) {
+       /* rules for tablet (768 > 992) */
+       .half {
+       	margin-top: -200px;
+       	height: 600px;
+       }
+       .col-xs-4 {
+       	text-align: left;
+       }
+    }
+    @media (max-width: 1200px) {
+       /* rules for desktop (992 > 1200) */
+     .half {
+       margin-top: -200px;
+    	}
+    }
+    @media (min-width: @screen-lg-min) {
+       /* rules for large (> 1200) */
+    }
+}
+
+
+
+-----------
 /* Homepage */
 .rowzer {
 	-webkit-filter: grayscale;
@@ -61,16 +99,16 @@ p.lead {
 	color: #fff;
 }
 
-.btn {
+.btn_learn {
 	margin-top: 50px;
 }
-a.btn {
+a.btn_learn {
 	background-color: #20ce99;
 	color: #fff;
 	border-color: #20ce99;
 	border-radius: 0;
 }
-a.btn:hover {
+a.btn_learn:hover {
 	background-color: #dad8d2;
 	color: #fff;
 	border-color: #dad8d2;
@@ -99,16 +137,17 @@ h2 {
 	z-index: -1;
 	margin-top: -20px;
 	margin-bottom: 30px;
+	margin-left: 0;
 }
 
 .home-works {
-	margin-top: 100px;
+	margin-top: 0;
 	margin-bottom: 0;
 	background-color: #dad8d2;
 }
 
 .home-works .container .row {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .learn_more {
@@ -270,7 +309,3 @@ opacity: 0.6;
 	background: #dad8d2;
 	}
 
-
-.btn .btn-lg .btn-default .more-priv a {
-	background-color: #F0A830;
-}
