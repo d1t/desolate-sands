@@ -17,7 +17,7 @@
 
 
 
-    @media (max-width: 768px) {
+    @media (min-width:310px) and (max-width: 768px) {
     	.rowzer .btn_learn {
     		margin-bottom: 100px;
     	}
@@ -25,28 +25,83 @@
     		margin-top: -100px;
     	}
     	.rowzer {
-    margin-bottom: -100px;
+    	margin-bottom: -100px;
+    	}
+
+    	.vision {
+    		margin-left: 0;
+    	}
+    	.vish {
+    		display: block;
+    	}
+    	
+    	h2.lead {
+    		font-size: 20px;
+    	}
+
+    	h4 {
+    		font-size: 15px;
+    	}
+    	p {
+    		font-size: 10px;
+    		font-weight: 100;
+    	}
+
+    	img.header {
+    		height: 30px;
+    		margin-top: 0;
     	}
     }
 
-    @media (max-width: 992px) {
+    @media (min-width: 768px) and (max-width: 992px) {
        /* rules for tablet (768 > 992) */
-       .half {
-       	margin-top: -200px;
-       	height: 600px;
+       
+       .rowzer {
+       	margin-bottom: -100px;
        }
        .col-xs-4 {
        	text-align: left;
        }
+       .tinted-image {
+       	margin-bottom: 0;
+       }
+
+       img.header {
+    		height: 30px;
+    	}
+
+       	.vish {
+    		margin-left: 0;
+    	}
+
+    	.home-works {
+    		margin-top: 0;
+    	}
+   
     }
     @media (max-width: 1200px) {
        /* rules for desktop (992 > 1200) */
+
+     	.rowzer {
+       	margin-bottom: -80px;
+       }
+
+       .tinted-image {
+       	margin-bottom: 0;
+       }
+
      .half {
        margin-top: -200px;
     	}
+.lead .btn_learn {
+	margin-bottom: 60px;
+}
     }
-    @media (min-width: @screen-lg-min) {
+    @media (min-width: 1200px) {
        /* rules for large (> 1200) */
+       .tinted-image {
+       	margin-bottom: 0;
+       }
     }
 }
 
@@ -112,6 +167,10 @@ a.btn_learn:hover {
 	background-color: #dad8d2;
 	color: #fff;
 	border-color: #dad8d2;
+}
+
+.lead .btn_learn {
+	margin-bottom: 100px;
 }
 
 h2 {
