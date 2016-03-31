@@ -18,9 +18,6 @@
 
 
     @media (min-width:280px) and (max-width: 768px) {
-    	img.tinted-image, .home-works, .vision, .learn_more, .footer {
-    		width:auto;
-    	}
     	.rowzer .btn_learn {
     		margin-bottom: 100px;
     	}

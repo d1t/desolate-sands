@@ -16,8 +16,6 @@
 !/log/.keep
 /tmp
 
-# Public/assets file
-/public/assets
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
