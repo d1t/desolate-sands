@@ -32,7 +32,7 @@
     	.rowzer {
     	margin-bottom: -100px;
     	}
-    	
+
     	.home-works .container .row {
 		padding-top: 0px;
 		}
@@ -121,13 +121,13 @@
 	margin-bottom: 60px;
 }
     }
+
     @media (min-width: 1200px) {
        /* rules for large (> 1200) */
        .tinted-image {
        	padding-bottom: 100px;
        }
     }
-}
 
 
 
