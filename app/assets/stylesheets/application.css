@@ -24,24 +24,29 @@
     	.rowzer .btn_learn {
     		margin-bottom: 100px;
     	}
+
     	.site-wrapper h1 {
     		margin-top: -100px;
     		font-size: 30px;
     		font-weight: 200;
     	}
+
     	.rowzer {
-    	margin-bottom: -100px;
+    		margin-bottom: -100px;
     	}
 
     	.home-works .container .row {
-		padding-top: 0px;
-		}
+    		padding-top: 0px;
+    	}
+
     	.vision {
     		margin-left: 0;
     	}
+
     	.vision h1 {
     		font-size: 3em;
     	}
+
     	.vish {
     		display: block;
     	}
@@ -99,27 +104,28 @@
        /* rules for desktop (992 > 1200) */
 
      	.rowzer {
-       	margin-bottom: -80px;
+       		margin-bottom: -80px;
        }
 
        .tinted-image {
-       	margin-bottom: 0;
+       		margin-bottom: 0;
        }
 
        .home-works {
-       	height: 600px;
+       		height: 600px;
        }
 
     	.vision {
     		padding-top: 30px;
     	}
 
-     .half {
-       margin-top: -200px;
+     	.half {
+       		margin-top: -200px;
     	}
-.lead .btn_learn {
-	margin-bottom: 60px;
-}
+
+    	.lead .btn_learn {
+    		margin-bottom: 60px;
+    	}
     }
 
     @media (min-width: 1200px) {
@@ -131,16 +137,13 @@
 
 
 
------------
+/*----------- */
 /* Homepage */
-.rowzer {
-	-webkit-filter: grayscale;
-}
 
 body {
 	font-family: 'Raleway', sans-serif;
 	margin: 0;
-}
+		} 
 
 .navbar-text {
 	color: #fff;
@@ -214,10 +217,10 @@ h2 {
 }
 
 .tinted-image {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
 }
 
 

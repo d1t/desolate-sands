@@ -390,21 +390,18 @@ div.field, div.actions {
 	margin-bottom: 60px;
 }
     }
+
     @media (min-width: 1200px) {
        /* rules for large (> 1200) */
        .tinted-image {
        	padding-bottom: 100px;
        }
     }
-}
 
 
 
------------
+/* ----------- */
 /* Homepage */
-.rowzer {
-	-webkit-filter: grayscale;
-}
 
 body {
 	font-family: 'Raleway', sans-serif;
