@@ -17,32 +17,41 @@
 
 
 
-    @media (min-width:310px) and (max-width: 768px) {
+    @media (min-width:280px) and (max-width: 768px) {
+    	img.tinted-image {
+    		width:auto;
+    	}
     	.rowzer .btn_learn {
     		margin-bottom: 100px;
     	}
     	.site-wrapper h1 {
     		margin-top: -100px;
-    		font-size: 40px;
+    		font-size: 30px;
     		font-weight: 200;
     	}
     	.rowzer {
     	margin-bottom: -100px;
     	}
 
+    	.home-works .container .row {
+		padding-top: 0px;
+		}
     	.vision {
     		margin-left: 0;
+    	}
+    	.vision h1 {
+    		font-size: 3em;
     	}
     	.vish {
     		display: block;
     	}
     	
     	h2.lead {
-    		font-size: 20px;
+    		font-size: 15px;
     	}
 
     	h4 {
-    		font-size: 15px;
+    		font-size: 10px;
     	}
     	p {
     		font-size: 10px;
@@ -50,9 +59,10 @@
     	}
 
     	img.header {
-    		height: 30px;
-    		margin-top: 0;
+    		height: 20px;
+    		margin-top: -20px;
     	}
+    	
     }
 
     @media (min-width: 768px) and (max-width: 992px) {
@@ -81,6 +91,7 @@
     	}
     	.home-works {
     		margin-top: 0;
+    		height: 600px;
     	}
    
     }
@@ -95,6 +106,9 @@
        	margin-bottom: 0;
        }
 
+       .home-works {
+       	height: 600px;
+       }
 
     	.vision {
     		padding-top: 30px;
@@ -145,6 +159,10 @@ body {
 
 .site-wrapper {
 	margin: 0;
+}
+.home-works {
+	height: 450px;
+	width:100%;
 }
 h1.cover-heading {
 	font-weight: 300;
