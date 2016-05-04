@@ -16,10 +16,13 @@
 //= require turbolinks
 //= require_tree .
 
+$(document).ready(function() {
+    
+    //icon.removeClass('ico');
+});
 
 var main = function() {
-$('.lazy').hide();
-$('.btn_more').hide();
+    var icon = $('.ico');
 
 
 $('.arrow-next').click(function() {
@@ -38,13 +41,14 @@ $('.arrow-next').click(function() {
     };
 
     currentSlide.fadeOut(600).removeClass('active-slide');
-    nextSlide.fadeIn(600).addClass('active-slide');
+    nextSlide.fadeIn(200).addClass('active-slide');
+    icon.removeClass('ico')
 
     currentDot.removeClass('active-dot');
     nextDot.addClass('active-dot');
 
-    lazyimg.hide().fadeIn(700).removeClass('lazy');
-    btn.hide().fadeIn(700);
+    lazyimg.hide().fadeIn(200).removeClass('lazy');
+    btn.hide().fadeIn(200);
   });
 
  $('.arrow-prev').click(function() {
@@ -60,7 +64,8 @@ $('.arrow-next').click(function() {
     }
     
     currentSlide.fadeOut(600).removeClass('active-slide');
-    prevSlide.fadeIn(600).addClass('active-slide');
+    prevSlide.fadeIn(200).addClass('active-slide');
+    icon.removeClass('ico')
 
     currentDot.removeClass('active-dot');
     prevDot.addClass('active-dot');
