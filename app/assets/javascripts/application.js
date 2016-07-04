@@ -73,4 +73,12 @@ $('.arrow-next').click(function() {
 
 }
 
+$( function() {
+        $( '.type-text' ).teletype( {
+            text: [ 'independent', 'fresh', 'innovative' ],
+            typeDelay: 0,
+            backDelay: 20
+        } );
+    } );
+
 $(document).ready(main);

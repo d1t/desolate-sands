@@ -149,10 +149,10 @@ body {
 	margin: 0;
 		} 
 
-h1.care {
+h2.care {
 	padding-top: 180px;
 	font-weight: 100;
-	font-size: 60px;
+	font-size: 200%;
 	color: #fff;
 }
 
@@ -190,9 +190,9 @@ h1.care {
 
 
 
-h2.lead {
+h4.lead, h2.lead {
 	color: #fff;
-	font-size: 40px;
+	font-size: 150%;
 	font-weight: 100;
 }
 
@@ -202,12 +202,12 @@ p.lead {
 }
 
 .btn_learn {
-	margin-top: 50px;
+	margin-top: 20px;
 }
 a.btn_learn {
-	background-color: #20ce99;
+	background-color: #40e1b0;
 	color: #fff;
-	border-color: #20ce99;
+	border-color: #40e1b0;
 	border-radius: 0;
 }
 a.btn_learn:hover {
