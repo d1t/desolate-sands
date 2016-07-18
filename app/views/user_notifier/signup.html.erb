@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	 <style type="text/css" media="screen">
+      img.brand { 
+      	max-height: 80px;
+      	margin-left: auto;
+      	margin-right: auto; 
+      }
+    </style>
+</head>
+<body>
+
+<%= image_tag "http://beta.cubey.co/images/cropgrnblkexp2.png", class: "brand text-center" %>
+<br><br>
+<p>Howdy <%= @admin.username %>,</p>
+<br>
+
+<p>A new user has signed up, please try and send them an invitation to the platform as soon as you can.</p>
+
+<p>The new user's name is: <%= @beta_user.first_name %> <%= @beta_user.last_name %><br> email address is: <%= @beta_user.email %></p>
+
+<p>Regards,</p>
+<p>Management</p>
+<p>Cubey</p>
+
+</body>
+</html>

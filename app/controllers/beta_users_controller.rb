@@ -31,6 +31,8 @@ class BetaUsersController < ApplicationController
       if @beta_user.save
         format.html { redirect_to root_path, notice: "We'll be in touch shortly." }
         format.json { render :show, status: :created, location: @beta_user }
+        UserNotifier.signup(@beta_user, @admin).deliver_now
+        UserNotifier.thanks(@beta_user).deliver_now
       else
         format.html { render :new }
         format.json { render json: @beta_user.errors, status: :unprocessable_entity }
