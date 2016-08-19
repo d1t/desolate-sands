@@ -1,3 +1,270 @@
+@media (min-width: 280px) and (max-width: 768px) {
+  /* line 2, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+  .join {
+    margin-top: -200px;
+  }
+
+  /* line 6, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+  .btn_more {
+    position: relative;
+    top: 40px;
+    width: auto;
+  }
+
+  /* line 13, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+  .disc {
+    margin-top: 120px;
+  }
+
+  /* line 17, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+  .slider {
+    padding-bottom: 80px;
+  }
+
+  /* line 21, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+  .value h4 {
+    font-size: 15px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 29, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+  .btn_more {
+    padding: 4px 9px;
+    font-size: 90%;
+    line-height: 1.2;
+    width: 100%;
+    margin-left: 180px;
+  }
+}
+/* line 38, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.unsold {
+  margin-top: 80px;
+}
+
+/* line 41, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.unsold h1 {
+  color: #fff;
+  font-weight: 200;
+}
+
+/* line 46, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.more, .info {
+  background-color: #20ce99;
+}
+
+/* line 50, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.lead h2 {
+  color: #fff;
+}
+
+/* line 54, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+hr {
+  color: #fff;
+  width: 1000px;
+}
+
+/* line 59, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.lead h5 {
+  color: #fff;
+}
+
+/* line 63, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.light {
+  background-color: #F0A830;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+/* line 69, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.slider {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 76, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.active-slide {
+  display: block;
+}
+
+/* line 80, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 85, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+/* line 92, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+/* line 99, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+/* line 107, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+/* line 114, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+/* line 119, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.disc {
+  margin-top: 20px;
+}
+
+/* line 123, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.slide-img img {
+  margin-top: 20px;
+}
+
+/* line 127, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.value h4 {
+  padding-top: 20px;
+  color: #fff;
+  font-weight: 100;
+}
+
+/* line 133, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.arrow-next:hover, .arrow-prev:hover {
+  background: none;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+/* line 139, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.btn_more {
+  background: #F0A830;
+  border-radius: 0;
+}
+
+/* line 144, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.btn_more:hover {
+  background: #dad8d2;
+  text-decoration: none;
+}
+
+/* line 149, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.join {
+  position: relative;
+  left: 0px;
+  top: 120px;
+}
+
+/* line 155, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.slider-nav hr {
+  width: 100%;
+}
+
+/* line 159, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/more.scss */
+.ico {
+  display: none;
+}
+/* line 1, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 60, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 71, /Users/dapothomas/Documents/beta/landing/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -10,9 +277,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
+
 
  	@media (max-width: 240px) {
  		body {
